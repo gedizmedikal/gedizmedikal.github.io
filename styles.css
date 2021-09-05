@@ -1,0 +1,39 @@
+body {
+    font: 13px "segoe ui","Roboto","Helvetica Neue";
+    margin:0;
+    padding: 0;
+    background: #FAFAFA;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: calc(100% - 40px);
+    max-width: 1000px;
+}
+.header-container{
+    
+    background: #e3e3e3;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo a{
+    
+    color: #333;
+    text-decoration: none;
+}
+.navigation-bar {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.navigation-bar a {
+    color: #333;
+    text-decoration: none;
+    padding: 13px;
+}
